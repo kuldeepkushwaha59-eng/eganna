@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eGanna.in - उत्तर प्रदेश गन्ना किसान सेवा पोर्टल</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #fbc02d;
+            --text-dark: #333;
+            --light-bg: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590005024862-6b67679a29fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px 0;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: var(--primary-color); }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .btn-yellow { background: var(--secondary-color); color: #000; }
+
+        .info-section {
+            background: white;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>🌱 eGanna.in</h1>
+        <p>गन्ना किसानों का विश्वसनीय डिजिटल साथी</p>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>चीनी उद्योग एवं गन्ना विकास विभाग, उत्तर प्रदेश</h1>
+        <p>अपनी पर्ची, सर्वे और पेमेंट की जानकारी अब एक ही जगह प्राप्त करें।</p>
+        <a href="#services" class="btn btn-yellow">सेवाएं देखें</a>
+    </div>
+</section>
+
+<div class="container" id="services">
+    <div class="features">
+        <div class="card">
+            <h3>📊 किसान डेटा देखें</h3>
+            <p>अपना सर्वे, प्री-कैलेंडर और सट्टा विवरण ऑनलाइन चेक करें।</p>
+            <a href="https://www.caneup.in/Default.aspx" target="_blank" class="btn">चेक करें</a>
+        </div>
+
+        <div class="card">
+            <h3>📅 कैलेंडर एवं पर्ची</h3>
+            <p>अपनी गन्ना पर्ची और कैलेंडर की नवीनतम स्थिति जानें।</p>
+            <a href="https://www.caneup.in/SearchKisan.aspx" target="_blank" class="btn">पर्ची देखें</a>
+        </div>
+
+        <div class="card">
+            <h3>📝 ऑनलाइन घोषणा पत्र</h3>
+            <p>नये सत्र के लिए अपना ऑनलाइन घोषणा पत्र (Declaration) भरें।</p>
+            <a href="https://upcane.gov.in/" target="_blank" class="btn">फॉर्म भरें</a>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <h2>💡 किसानों के लिए महत्वपूर्ण जानकारी</h2>
+        <ul>
+            <li><strong>Ganna Parchi:</strong> अब आप घर बैठे अपने मोबाइल पर 'E-Ganna' ऐप या हमारी वेबसाइट के माध्यम से पर्ची देख सकते हैं।</li>
+            <li><strong>Survey Check:</strong> गन्ना कटाई से पहले अपना सर्वे डेटा जरूर मिला लें ताकि बाद में समस्या न हो।</li>
+            <li><strong>Payment Status:</strong> गन्ना आपूर्ति के बाद अपने भुगतान की स्थिति सीधे बैंक खाते में चेक करें।</li>
+        </ul>
+        <p>अधिक सहायता के लिए टोल-फ्री नंबर <strong>1800-121-3203</strong> पर संपर्क करें।</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 eGanna.in | किसानों की प्रगति, हमारी पहचान।</p>
+</footer>
+<div class="container">
+    <div style="background-color: #fff3e0; border: 1px solid #ffe0b2; padding: 15px; border-radius: 8px; margin-top: 20px; text-align: center;">
+        <p style="color: #e65100; font-weight: bold; margin: 0;">
+            ⚠️ महत्वपूर्ण सूचना (Disclaimer):
+        </p>
+        <p style="font-size: 14px; color: #555; margin-top: 5px;">
+            यह कोई आधिकारिक सरकारी वेबसाइट नहीं है। यह वेबसाइट केवल किसानों की सहायता और जानकारी (Information) के उद्देश्य से बनाई गई है। 
+            हमारा किसी भी चीनी मिल या सरकारी विभाग से सीधा संबंध नहीं है। सटीक जानकारी के लिए कृपया आधिकारिक सरकारी पोर्टल पर ही भरोसा करें।
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 eGanna.in | किसानों की प्रगति, हमारी पहचान।</p>
+</footer>
+</body>
+</html>
