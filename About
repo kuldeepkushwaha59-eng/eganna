@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us - eGanna.in</title>
+
+<meta name="description" content="eGanna.in के बारे में जानें। यह वेबसाइट गन्ना किसानों को पर्ची, भुगतान और CaneUP जानकारी देने के लिए बनाई गई है।">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 eGanna.in</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+    </nav>
+</header>
+
+<div class="container">
+
+<h1>About Us</h1>
+
+<p>
+eGanna.in एक जानकारी आधारित (Informational) वेबसाइट है जो उत्तर प्रदेश के गन्ना किसानों की मदद के लिए बनाई गई है।
+हमारा उद्देश्य है कि किसान अपनी गन्ना पर्ची, भुगतान (Payment), सर्वे और CaneUP portal से जुड़ी जानकारी आसानी से घर बैठे प्राप्त कर सकें।
+</p>
+
+<h2>🎯 हमारा उद्देश्य</h2>
+
+<p>
+आज भी बहुत से किसान अपनी जानकारी के लिए मिल या सरकारी कार्यालयों के चक्कर लगाते हैं।
+हमारी वेबसाइट का लक्ष्य है:
+</p>
+
+<ul>
+<li>गन्ना पर्ची देखने का आसान तरीका बताना</li>
+<li>भुगतान की जानकारी सरल भाषा में देना</li>
+<li>CaneUP portal का उपयोग समझाना</li>
+<li>किसानों को डिजिटल बनाना</li>
+</ul>
+
+<h2>📌 हम क्या करते हैं?</h2>
+
+<p>
+हम गन्ना किसानों के लिए जरूरी जानकारी एक जगह उपलब्ध कराते हैं जैसे:
+</p>
+
+<ul>
+<li>गन्ना पर्ची कैसे देखें</li>
+<li>भुगतान स्थिति कैसे चेक करें</li>
+<li>सर्वे और सट्टा जानकारी</li>
+<li>सरकारी पोर्टल की गाइड</li>
+</ul>
+
+<h2>⚠️ Disclaimer</h2>
+
+<p>
+eGanna.in कोई आधिकारिक सरकारी वेबसाइट नहीं है।
+हम किसी भी सरकारी विभाग या चीनी मिल से जुड़े नहीं हैं।
+हम केवल जानकारी (Information) प्रदान करते हैं।
+सटीक जानकारी के लिए कृपया आधिकारिक वेबसाइट जैसे CaneUP portal पर ही जाएं।
+</p>
+
+<h2>📞 संपर्क</h2>
+
+<p>
+यदि आपको किसी भी प्रकार की सहायता चाहिए तो आप हमसे संपर्क कर सकते हैं:
+</p>
+
+<p><strong>Email:</strong> aewaup@gmail.com</p>
+
+</div>
+
+<footer>
+<p>© 2026 eGanna.in | किसानों की सेवा में समर्पित</p>
+</footer>
+
+</body>
+</html>
